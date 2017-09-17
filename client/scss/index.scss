@@ -21,6 +21,18 @@
     order: 1 ;
     width: 100% ;
   }
+
+  .home-image {
+    max-width: 100%
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
 body {
