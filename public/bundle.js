@@ -13806,7 +13806,7 @@ var Routes = function (_Component) {
           _react2.default.createElement(
             _reactRouterDom.Switch,
             null,
-            _react2.default.createElement(_reactRouterDom.Route, { path: '/home', component: _components.Home }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _components.Home }),
             _react2.default.createElement(_reactRouterDom.Route, { path: '/aboutMe', component: _components.AboutMe }),
             _react2.default.createElement(_reactRouterDom.Route, { path: '/landscapes', component: _components.Landscapes }),
             _react2.default.createElement(_reactRouterDom.Route, { path: '/figures', component: _components.Figures }),
@@ -14242,7 +14242,7 @@ var Main = function Main(props) {
         { className: 'fontcolor' },
         _react2.default.createElement(
           _reactRouterDom.Link,
-          { to: '/home' },
+          { to: '/' },
           'Home'
         ),
         _react2.default.createElement(

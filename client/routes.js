@@ -16,7 +16,7 @@ class Routes extends Component {
       <Router history={history}>
         <Main>
           <Switch>
-            <Route path='/home' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route path='/aboutMe' component={AboutMe} />
             <Route path='/landscapes' component={Landscapes} />
             <Route path='/figures' component={Figures} />
