@@ -9,13 +9,13 @@
    .nav {
     display: flex ;
     align-items: stretch ;
-    flex-flow: column;
+    flex-flow: column wrap ;
     font-family: 'Montserrat', sans-serif;
     color: black;
   }
   .links {
     order: 2 ;
-    width: 100%;
+    //width: 100%;
   }
   .name {
     order: 1 ;
