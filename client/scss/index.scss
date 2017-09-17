@@ -23,17 +23,19 @@
   }
 
   .home-image {
-    max-width: 100%
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
   }
 
   .flex {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .photo{
+  .photo {
     max-width: 90%;
   }
 }
