@@ -28,15 +28,16 @@
     height: auto ;
   }
 
-  .flex {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+  .flex{
+    display: none;
   }
+  .paragraph {
+    text-align: center;
+  }
+
   .photo {
     max-width: 90%;
+    order: 1;
   }
 }
 
