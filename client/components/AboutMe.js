@@ -12,7 +12,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="photo">
-          <img src="/images/hawaiiedit.jpg"/>
+          <img src="/personal/hawaii2.jpg"/>
         </div>
       </div>
     </div>

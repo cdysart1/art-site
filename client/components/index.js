@@ -11,4 +11,5 @@ export {default as ContactMe} from './ContactMe'
 export {default as Landscapes} from './Landscapes'
 export {default as Figures} from './Figures'
 export {default as Cityscapes} from './Cityscapes'
+export {default as Home} from './Home'
 

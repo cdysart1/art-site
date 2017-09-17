@@ -1,6 +1,6 @@
 import React from 'react';
 
-const images = ["images/ABarn2.jpg", "images/LeoCastillo.jpg", "images/OceanShades.jpg",  "images/WestCoast.jpg",  "images/Garden.jpg", "images/dustyHike.jpg", "images/DreamWorld.jpg", "images/SantaMonica.jpg" ]
+const images = ["images/ABarn2.jpg", "images/LeoCastillo.jpg", "images/daffodils.jpg",  "images/OceanShades.jpg",  "images/WestCoast.jpg",  "images/Garden.jpg", "images/dustyHike.jpg", "images/DreamWorld.jpg", "images/SantaMonica.jpg" ]
 
 const Landscapes = () => {
   return (
