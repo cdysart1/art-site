@@ -1,0 +1,40 @@
+@import 'aboutMe';
+@import 'contactMe';
+@import 'gallery';
+
+
+body {
+  font-family: sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+
+  label {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 1em;
+  }
+
+
+  form div {
+    margin: 1em;
+    display: inline-block;
+  }
+
+}
+
+
