@@ -16,11 +16,11 @@ const Main = (props) => {
     <div>
 
       <nav className="nav">
-        <div>
+        <div className="name">
           <h1>CAROL <span style={{ color: "red" }}>DYSART</span></h1>
         </div>
         {
-          <div className="fontcolor">
+          <div className="fontcolor links">
             <Link to='/'>Home</Link>
             {/* <Link to='/gallery'>Gallery</Link> */}
             <div className="dropdown">
