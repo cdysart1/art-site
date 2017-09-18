@@ -24,13 +24,16 @@
 
   .home-image {
     width: auto ;
-    max-width: 100% ;
+    max-width: 90% ;
     height: auto ;
   }
 
-
+  .flex {
+    display: flex;
+  }
   .paragraph {
     text-align: center;
+    order: 2;
   }
 
   .photo {
