@@ -4,42 +4,65 @@
 @import 'home';
 
 @media screen and (max-width:629px) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
+
    /* one column code */
    .nav {
+    margin-left: 0px;
     display: flex ;
     align-items: stretch ;
     flex-flow: column wrap ;
+
+  }
+  .links {
+    order: 2;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     color: black;
   }
-  .links {
-    order: 2 ;
-    //width: 100%;
-  }
+
   .name {
     order: 1 ;
     width: 100% ;
   }
 
-  .home-image {
-    width: auto ;
-    max-width: 90% ;
-    height: auto ;
+  .home-image-mobile {
+    width: 378px ;
+    height: 300px ;
   }
 
+  .home-image {
+    padding-top: 50px;
+  }
+
+  .header {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    font-size: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .flex {
-    display: flex;
+   display: block;
+   padding-top: 0px;
+   margin-left: 10px;
+   margin-right: 10px;
+
   }
 
   .photo {
-    max-width: 90%;
-    order: 1;
+    display: block;
+    float: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 
   .paragraph {
-    text-align: center;
-    order: 2;
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+
   }
 }
 

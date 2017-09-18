@@ -24,7 +24,7 @@ const Main = (props) => {
             <Link to='/'>Home</Link>
             {/* <Link to='/gallery'>Gallery</Link> */}
             <div className="dropdown">
-              <button className="dropbtn">Gallery</button>
+              <button className="dropbtn links ">Gallery</button>
               <div className="dropdown-content">
                 <Link to='/landscapes'>Landscapes</Link>
                 <Link to='/figures'>Figures</Link>

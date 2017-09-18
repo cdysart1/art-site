@@ -1,3 +1,5 @@
+
+
 .aboutMe {
   font-family: 'Montserrat', sans-serif;
 
@@ -9,14 +11,14 @@
   font-family: 'Great Vibes', cursive;
   font-size: 75px;
   padding-top: 75px;
-  padding-bottom: 50px;
-  // color: red;
+  padding-bottom: 30px;
 }
 
 .flex {
   padding-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -29,6 +31,5 @@
 
 .photo {
   padding-left: 50px;
-  width: 375px;
-  height: 400px;
+  padding-right: 50px;
 }
