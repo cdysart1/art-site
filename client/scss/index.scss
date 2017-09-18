@@ -31,14 +31,15 @@
   .flex {
     display: flex;
   }
-  .paragraph {
-    text-align: center;
-    order: 2;
-  }
 
   .photo {
     max-width: 90%;
     order: 1;
+  }
+
+  .paragraph {
+    text-align: center;
+    order: 2;
   }
 }
 
